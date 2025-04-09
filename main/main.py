@@ -5,8 +5,6 @@ from inst import *
 import logging
 
 
-def search():
-    pass
 
 def upload():
 	
@@ -29,46 +27,24 @@ def upload():
 		
 		main_inst()
 
-def download():
-    pass
-
-def learn():
-    pass
-
-def play():
-    pass
-
 def exit():
     print ("Bye ! solid ")
 
 def main():
     
     while True:
-        print("1. Search")
-        print("2. Upload")
-        print("3. Download")
-        print("4. Learn")
-        print("5. Play")
-        print("6. Exit")
+        print("1. Upload")
+
+        print("2. Exit")
 
         choice = input("Enter your choice: ")
 
-        if choice == '1':
-            search()
         
-        elif choice == '2':
+        elif choice == '1':
             upload()
         
-        elif choice == '3':
-            download()
         
-        elif choice == '4':
-            learn()
-        
-        elif choice == '5':
-            play()
-        
-        elif choice == '6':
+        elif choice == '2':
             exit()
             break
         
